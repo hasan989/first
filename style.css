@@ -1,0 +1,101 @@
+
+body , html,* {
+
+    background-color: #FFAB91;
+}
+
+/* main tns */
+h1 {
+    text-align: center ;
+    padding: 16px;
+
+}
+#cont1 {
+    font-size: 30px ;
+}
+/* close menu */
+.menu {
+    margin: 0px;
+    padding: 0px ;
+ position: relative;
+ float: right ;
+  width: 260px; 
+  height: 100vmax ;
+  color:#2c3e50;
+  z-index: 999;
+  transition:  0.5s ;
+  
+
+}
+/* pramiter menu */
+#bbst > li{
+  list-style-type: none;  
+  text-align: center ;
+  line-height: 40px ;
+  cursor: pointer;
+  border-bottom: 1px solid #2f3542 ;  
+  transition:  0.5s ;
+ 
+
+}
+ #bbst > li:hover {
+    background-color: #F44336 ;
+   
+}
+
+
+#od {
+    display: none ;
+    width: 100%  !important ;
+    list-style-type: none; 
+    transition:0.5s ;
+ 
+}
+#od > li {
+    cursor: pointer;
+
+}
+#od > li:hover {
+    background-color: #F44336;
+
+
+}
+#ma {
+    display: none ;
+    width: 100%  !important ;
+    list-style-type: none; 
+      transition:  0.5s ;
+
+}
+
+#ma > li:hover {
+    background-color: #F44336;
+
+
+}
+
+
+.hover {
+    display: none ;
+    border-bottom: 1px solid #ffffff ;
+    list-style-type: none; 
+    transition:  0.5s ;
+
+}
+.hover > li:hover {
+    color:  #2f3542 ;
+    background-color: #F44336 ;
+}
+#cont1 {
+  text-align: center 
+}
+ .foodv{
+     margin: 270 px;
+     font-size: 20px ;
+     text-align: center ;
+display: none ;     
+
+    }
+    .hide{
+        display: none ;
+    }
